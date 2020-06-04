@@ -16,3 +16,6 @@ Git es un sistema de control de versiones libre y codigo abierto diseñado para 
 >
 >- Comando: [Git Cheat Sheet:](https://education.github.com/git-cheat-sheet-education.pdf)
 >
+>- Terminal Gitbash para uso por comandos
+>
+>![Terminal Gitbash ](https://rm-rf.es/wp-content/uploads/2019/04/git_bash_windows.png)
