@@ -1,5 +1,5 @@
 # GIT
-##  Instalación de Git para **windows**
+##  Git para **windows**
 
 ![GIT](https://git-scm.com/images/logo@2x.png)
 
@@ -16,6 +16,6 @@ Git es un sistema de control de versiones libre y codigo abierto diseñado para 
 >
 >- Comando: [Git Cheat Sheet:](https://education.github.com/git-cheat-sheet-education.pdf)
 >
->- Terminal Gitbash para uso por comandos
->
->![Terminal Gitbash ](https://rm-rf.es/wp-content/uploads/2019/04/git_bash_windows.png)
+
+### Gitbash 
+> Git Bash es una aplicación para entornos de Microsoft Windows que ofrece una capa de emulación para una experiencia de líneas de comandos de Git.
