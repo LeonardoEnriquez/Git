@@ -19,6 +19,8 @@ Git es un sistema de control de versiones libre y codigo abierto diseñado para 
 >- Git-Book: [Sitio oficial de GIT](https://git-scm.com/)
 >
 >- Video Tutorial: [Como Instalar Git](https://www.youtube.com/watch?v=1PiYqxog8mc&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=2)
+>- Video Tutorial Fazt: [Como utilizar Git](https://www.youtube.com/watch?v=HiXLkL42tMU)
+
 >
 ### Instalacion en Windows
 >- Instalacion: [Download git-scm](https://git-scm.com/download/win)
