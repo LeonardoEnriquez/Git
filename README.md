@@ -3,7 +3,13 @@
 
 ![GIT](https://git-scm.com/images/logo@2x.png)
 
-Git es un sistema de control de versiones libre y codigo abierto diseñado para pequeños y grandes proyectos. 
+Git es un sistema de control de versiones libre y codigo abierto diseñado para pequeños y grandes proyectos. Git tiene tres estados principales en los que se puede encontrar tus archivos: confirmado (committed), modificado (modified(, y preparado (staged).
+- **Confirmado:** Significa que los datos estan almacenados de manera segura en tu base de datos local.
+- **Modificado:** significa que has modificado el archivo pero todavia no lo has confirmado a tu base de datos.
+- **Preparado:** Significa que has 
+
+![GIT_Estados](https://git-scm.herokuapp.com/book/en/v2/images/areas.png)
+
 
 ### A continuación se muestran algunos enlaces de interés
 ### Sitio Oficial 
