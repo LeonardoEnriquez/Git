@@ -6,17 +6,22 @@
 Git es un sistema de control de versiones libre y codigo abierto diseñado para pequeños y grandes proyectos. 
 
 ### A continuación se muestran algunos enlaces de interés
+### Sitio Oficial 
 >- Git-SCM: [Sitio oficial de GIT](https://git-scm.herokuapp.com/book/es/v2)
 >
->- Documentacion: [Sitio oficial de GIT](https://git-scm.com/)
+### Tutorial y documentacion
+>- Git-Book: [Sitio oficial de GIT](https://git-scm.com/)
 >
->- Tutorial: [Como Instalar Git](https://www.youtube.com/watch?v=1PiYqxog8mc&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=2)
+>- Video Tutorial: [Como Instalar Git](https://www.youtube.com/watch?v=1PiYqxog8mc&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=2)
 >
+### Instalacion en Windows
 >- Instalacion: [Download git-scm](https://git-scm.com/download/win)
 >
->- Interface para Usuario: [GitHub Desktop](https://desktop.github.com/)
+### Interface visual 
+>- Interface visual para Usuario: [GitHub Desktop](https://desktop.github.com/)
 >
->- Comando: [Git Cheat Sheet:](https://education.github.com/git-cheat-sheet-education.pdf)
+>- Comando para uso en terminal: [Git Cheat Sheet:](https://education.github.com/git-cheat-sheet-education.pdf)
 >
-## Terminal Gitbash para uso por comandos
+### Interface por comandos
+#### Ejemplo de la terminal Gitbash
 >![Terminal Gitbash ](https://rm-rf.es/wp-content/uploads/2019/04/git_bash_windows.png)
