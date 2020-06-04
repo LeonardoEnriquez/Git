@@ -8,7 +8,7 @@ Git es un sistema de control de versiones libre y codigo abierto diseñado para 
 ### A continuación se muestran algunos enlaces de interés
 >- Documentacion: [Sitio oficial de GIT](https://git-scm.com/)
 > 
->- Tutorial: [Como Instalar Git](https://www.youtube.com/watch?v=1PiYqxog8mc&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=2)
+>- Tutorial: [Como Instalar Git](https://www.youtube.com/watch?v=ES2xtLyI-B8)
 >
 >- Instalacion: [Download git-scm](https://git-scm.com/download/win)
 >
