@@ -16,6 +16,6 @@ Git es un sistema de control de versiones libre y codigo abierto diseñado para 
 ### Gitbash 
 >- Git Bash es una aplicación para entornos de Microsoft Windows que ofrece una capa de emulación para una experiencia de líneas de comandos de Git.
 >
->- Comando: [Git Cheat Sheet:](https://education.github.com/git-cheat-sheet-education.pdf)
+>- Comandos [Git Cheat Sheet:](https://education.github.com/git-cheat-sheet-education.pdf)
 >
 
