@@ -30,13 +30,14 @@ $ git config user.name
 
 ### Obteniendo ayuda
 
-```
+
 > $ git help <verb>
 > $ git <verb> --help
 > $ man git-<verb>
-> Por ejemplo
+
 ```  
 $ git help config
+```
 
 ### Inicializando un repositorio
 > git init
@@ -63,6 +64,12 @@ $ git status
 
 ```
 $ git commit -m 'initial project version'
+```
+
+### 
+Mostrar historial del ultimo commit
+```
+$ git log
 ```
 
 ### Clonando un repositorio
