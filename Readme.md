@@ -5,13 +5,10 @@
 Git es un sistema de control de versiones libre y codigo abierto diseñado para pequeños y grandes proyectos. 
 
 ## A continuación se muestran algunos enlaces de interés
-## Sitio Oficial
->- Documentacion: [Sitio oficial de GIT](https://git-scm.com/)
-> 
->- Instalacion: [Download git-scm](https://git-scm.com/download/win)
+## Sitio Oficial git-scm
+>- [Documentacion](https://git-scm.com/) [e instalacion](https://git-scm.com/download/win)
 ## Tutorial y documentacion
->- [Tutorial para Instalar Git](https://www.youtube.com/watch?v=ES2xtLyI-B8)
->
+>- [Tutorial para Instalar Git](https://www.youtube.com/watch?v=ES2xtLyI-B8) 
 ## Interfaces para usuario
 >- [Interface GitHub Desktop](https://desktop.github.com/)
 >
