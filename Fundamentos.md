@@ -84,5 +84,40 @@ $ git diff -staged
 $ git diff -cached
 ```
 ## Confirmar cambios
+```
 $ git commit
+```
+## Eliminar archivos de tu directorio de trabajo
+```
+$ rm PROJECTS.md
+$ git status
+```
+## Eliminar archivos de tu directorio de trabajo
+```
+$ git rm PROJECT.md
+$ git status
+```
+## Cambiar el nombre de Archivos
+```
+$ git mv README.md README
+$ git status
+```
+## Ver historial de las diferencias introduccidas
+```
+$ git log
+```
+## Ver historial de las 2 ultimas diferencia introduccidas
+```
+$ git log
+$ git log -p -2
+```
+## Ver historial formateado ultimas diferencia introduccidas
+```
+$ git log --pretty=format:"%h - %an, %ar : %s"
+```
+> %h Hash de la confirmación abreviado
+> %an Nombre del autor
+> %ar Fecha de auditoria, relativa
+> %s Asunto
+
 
