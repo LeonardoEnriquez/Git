@@ -63,31 +63,6 @@ $ git diff -cached
 $ git remote add origin <server>
 ```
 
-## Actualiza y fusiona
-> Para actualizar tu repositorio local al commit mas nuevo 
-```
-$ git pull
-```
-
-
-## Ver historial de las diferencias introduccidas
-```
-$ git log
-```
-## Ver historial de las 2 ultimas diferencia introduccidas
-```
-$ git log
-$ git log -p -2
-```
-## Ver historial formateado ultimas diferencia introduccidas
-```
-$ git log --pretty=format:"%h - %an, %ar : %s"
-```
-> %h Hash de la confirmación abreviado
-> %an Nombre del autor
-> %ar Fecha de auditoria, relativa
-> %s Asunto
-
 ## Configurar proxy
 ```
 $ git config --global http.proxy 10.12.1.163:3128
