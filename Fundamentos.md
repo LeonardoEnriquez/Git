@@ -29,54 +29,60 @@ $ git config user.name
 ```
 
 ### Obteniendo ayuda
-
-
-> $ git help <verb>
-> $ git <verb> --help
-> $ man git-<verb>
-
 ```  
 $ git help config
 ```
 
 ### Inicializando un repositorio
-> git init
 
 ```
 $ git init
 ```
 
 ### Agregando archivos a un repositorio
-
-> git add <nombre_archivo>
 ```
 $ git add *.c
 $ git add LICENSE
+$ git add .
+$ git commit -m 'initial project version'
 ```
 
 ### Ver el estado de nuestro archivos
-
 ```
 $ git status
 ```
 
 ### Subir archivos del stage al repositorio
-
 ```
 $ git commit -m 'initial project version'
 ```
 
-### 
-Mostrar historial del ultimo commit
+### Mostrar historial del ultimo commit
 ```
 $ git log
 ```
 
-### Clonando un repositorio
+## Identificar el repositorio de trabajo actual
+```console
+$ git remote -v
+```
 
-> git clone [url]
-
+## Cambio de repositorio remoto URL
+```console
+$ git remote set-url origin https://hostname/USERNAME/REPOSITORY.git
+```
+## Clonando un repositorio
 ```
 $ git clone https://github.com/libgit2/libgit2
 $ git clone https://github.com/libgit2/libgit2 mylibgit
 ```
+## Cambios preparados y no preparados
+```
+$ git satus
+$ git diff
+$ git diff -staged
+$ git diff -cached
+```
+## Confirmar cambios
+$ git commit
+
