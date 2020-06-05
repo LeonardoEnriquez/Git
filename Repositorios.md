@@ -2,16 +2,6 @@
 
 ![GIT](https://git-scm.com/images/logo@2x.png)
 
-## Comandos basicos:
-
-* git init, indica a git que se creara un nuevo o se utilizara uno existente
-* git add <file>, permite subir los archivos del working directory al staging area
-* git status, permite ver el estado de archivos donde se encuentra
-* git commit, subir archivos del staging area al repositorio
-* git push,permite subir los archivos a un repositorio remoto o servidor
-* git pull, permite traer cambios realizados por otros desarrolladores
-* git clone, permite realizar una copia desde el servidor central al computador
-
 ## Configurando Git
 
 ### Tu identidad
@@ -39,23 +29,6 @@ $ git help config
 $ git init
 ```
 
-### Agregando archivos a un repositorio
-```
-$ git add *.c
-$ git add LICENSE
-$ git add .
-$ git commit -m 'initial project version'
-```
-
-### Ver el estado de nuestro archivos
-```
-$ git status
-```
-
-### Subir archivos del stage al repositorio
-```
-$ git commit -m 'initial project version'
-```
 
 ### Mostrar historial del ultimo commit
 ```
@@ -83,17 +56,6 @@ $ git diff
 $ git diff -staged
 $ git diff -cached
 ```
-## Confirmar cambios
-```
-$ git commit
-```
-
-## Envio de cambios 
-> Reemplazar origin master por la rama a la que quiere enviar tus cambios
-> git push origin master
-```
-$ git push origin master
-```
 
 ## Conectando un repositorio local a uno remoto
 > Reemplazar origin master por la rama a la que quiere enviar tus cambios
@@ -107,21 +69,7 @@ $ git remote add origin <server>
 $ git pull
 ```
 
-## Eliminar archivos de tu directorio de trabajo
-```
-$ rm PROJECTS.md
-$ git status
-```
-## Eliminar archivos de tu directorio de trabajo
-```
-$ git rm PROJECT.md
-$ git status
-```
-## Cambiar el nombre de Archivos
-```
-$ git mv README.md README
-$ git status
-```
+
 ## Ver historial de las diferencias introduccidas
 ```
 $ git log
@@ -140,4 +88,11 @@ $ git log --pretty=format:"%h - %an, %ar : %s"
 > %ar Fecha de auditoria, relativa
 > %s Asunto
 
-
+## Configurar proxy
+```
+$ git config --global http.proxy 10.12.1.163:3128
+```
+## Obtener actualizacion de archivos
+```
+$ git pull https://github.com/LeonardoEnriquez/Git_Tutorial.git
+```
