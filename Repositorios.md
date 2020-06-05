@@ -78,7 +78,7 @@ $ git clone https://github.com/libgit2/libgit2 mylibgit
 ```
 ## Cambios preparados y no preparados
 ```
-$ git satus
+$ git status
 $ git diff
 $ git diff -staged
 $ git diff -cached
@@ -87,6 +87,26 @@ $ git diff -cached
 ```
 $ git commit
 ```
+
+## Envio de cambios 
+> Reemplazar origin master por la rama a la que quiere enviar tus cambios
+> git push origin master
+```
+$ git push origin master
+```
+
+## Conectando un repositorio local a uno remoto
+> Reemplazar origin master por la rama a la que quiere enviar tus cambios
+```
+$ git remote add origin <server>
+```
+
+## Actualiza y fusiona
+> Para actualizar tu repositorio local al commit mas nuevo 
+```
+$ git pull
+```
+
 ## Eliminar archivos de tu directorio de trabajo
 ```
 $ rm PROJECTS.md
