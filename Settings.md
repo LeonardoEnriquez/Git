@@ -22,7 +22,7 @@ $ git config user.name
 $ git help config
 ```
 ### Inicializando un repositorio
-git add, git commit
+> git add, git commit
 
 ```console
 $ git init
@@ -32,7 +32,7 @@ $ git commit -m 'initial project version'
 ```
 
 ### Clonando un repositorio
-git clone [url]
+> git clone [url]
 
 ```console
 $ git clone https://github.com/libgit2/libgit2
