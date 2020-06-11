@@ -58,6 +58,12 @@ $ git status
 $ git pull origin develop
 ```
 
+##Agregar archivo gitignore
+> El archivo .gitignore ignora cualquier archivo cuyo nombre este indicado dentro del archivo
+```
+$ git add .gitignore
+$ git commit -m "add the ignore file"
+$ git status
 
 ## Ver historial de las diferencias introduccidas
 ```
