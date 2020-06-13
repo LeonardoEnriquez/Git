@@ -65,8 +65,17 @@ $ git remote add origin <server>
 
 ## Configurar proxy
 ```
+$ git config --global -l
+$ git config --global --unset http.proxy
+$ git config --global -l
+```
+
+## Eliminar la configuracion de proxy
+```
 $ git config --global http.proxy 10.12.1.163:3128
 ```
+
+
 ## Obtener actualizacion de archivos
 ```
 $ git pull https://github.com/LeonardoEnriquez/Git_Tutorial.git
