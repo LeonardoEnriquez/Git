@@ -64,6 +64,7 @@ $ git pull origin develop
 $ git add .gitignore
 $ git commit -m "add the ignore file"
 $ git status
+```
 
 ## Historial
 
@@ -72,12 +73,12 @@ $ git status
 $ git log
 ```
 
-## Ver historial de las 2 ultimas diferencia introduccidas
+> Ver historial de las 2 ultimas diferencia introduccidas
 ```
 $ git log
 $ git log -p -2
 ```
-## Ver historial formateado ultimas diferencia introduccidas
+> Ver historial formateado ultimas diferencia introduccidas
 ```
 $ git log --pretty=format:"%h - %an, %ar : %s"
 ```
