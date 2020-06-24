@@ -57,6 +57,13 @@ $ git status
 ```
 $ git pull origin develop
 ```
+> Para actualizar tu repositorio remote forzado
+> git push -f <remote> <branch>
+```
+$ git pull -f origin develop
+```
+
+
 
 ## Agregar archivo gitignore
 > El archivo .gitignore ignora cualquier archivo cuyo nombre este indicado dentro del archivo
