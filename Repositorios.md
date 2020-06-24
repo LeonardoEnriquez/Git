@@ -80,3 +80,12 @@ $ git config --global http.proxy 10.12.1.163:3128
 ```
 $ git pull https://github.com/LeonardoEnriquez/Git_Tutorial.git
 ```
+## fusionar todos los cambios que se han hecho en el repositorio local trabajando
+```
+$git checkout sesion-8
+$git branch
+$git checkout master
+$git pull origin sesion-8
+```
+
+
