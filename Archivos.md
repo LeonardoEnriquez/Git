@@ -63,7 +63,18 @@ $ git pull origin develop
 $ git pull -f origin develop
 ```
 
+## Obtener actualizacion de archivos
+```
+$ git pull https://github.com/LeonardoEnriquez/Git_Tutorial.git
+```
 
+## fusionar todos los cambios que se han hecho en el repositorio local trabajando
+```
+$git checkout sesion-8
+$git branch
+$git checkout master
+$git pull origin sesion-8
+```
 
 ## Agregar archivo gitignore
 > El archivo .gitignore ignora cualquier archivo cuyo nombre este indicado dentro del archivo
