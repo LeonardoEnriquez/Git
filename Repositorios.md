@@ -72,7 +72,7 @@ $ git config --global -l
 
 ## Eliminar la configuracion de proxy
 ```
-$ git config --global http.proxy 10.12.1.163:3128
+$ git config --global http.proxy xx.xx.1.163:3128
 ```
 
 
