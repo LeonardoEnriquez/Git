@@ -31,7 +31,7 @@ $ git branch -m develop
 Para integrar los commits de una rama (p.e. Develop) a otra (p.e. master) primero debemos ubicarnos sobre la rama principal (p.e. master) y ejecutar el comando git merge seguido del nombre de la rama:
 ```
 $ git checkout master
-git merge Develop
+$ git merge Develop
 ```
 
 ### Solucionando conflictos
