@@ -10,3 +10,4 @@
 * git push,permite subir los archivos a un repositorio remoto o servidor
 * git pull, permite traer cambios realizados por otros desarrolladores
 * git clone, permite realizar una copia desde el servidor central al computador
+* git tag, permite crear etiquetas que pueden ser utilizadas como identificador de versiones
