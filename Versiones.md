@@ -1,3 +1,6 @@
+#  Git para **windows**
+![GIT](https://git-scm.com/images/logo@2x.png)
+
 ## Especificar versiones en Git con tag
 
 A través del comando "git tag" podemos crear etiquetas, en una operación que se conoce comúnmente con el nombre de "tagging". El etiquetado es una herramienta fundamental para que otros sistemas sepan cuándo un proyecto ha cambiado y se permitan desencadenar procesos a ejecutar cada vez que esto ocurre. Generalmente los cambios se pueden dividir en tres niveles de "importancia": Mayor, menor y pequeño ajuste. Si tu versión de proyecto estaba en la 1.1 y haces un cambio que no altera la funcionalidad ni la interfaz de trabajo entonces lo adecuado es versionar tu aplicación como 1.1.1.
@@ -7,11 +10,11 @@ Hay dos tipos de etiquetas: ligeras (lightweight) y anotadas (annotated). Una et
 
 Etiqueta Ligera:
 ```
-git tag v1.4.2
+$ git tag v1.0
 ```
 Etiqueta anotada:
 ```
-$ git tag -a v1.0 -m 'Version 1.0'
+$ git tag -a v1.1 -m 'Version 1.1'
 ```
 
 ### Listando etiquetas
@@ -43,15 +46,15 @@ index 0000000..c11ecc0
 
 ### Eliminando etiquetas
 Para eliminar una etiqueta utiliza el comando git tag -d seguido del nombre de la etiqueta. Por ejemplo, para eliminar una etiqueta llamada v1.4.2 ejecuta el siguiente comando:
-git tag -d v1.4
+
 ```
-$ git tag -d v1.4.2
+$ git tag -d v1.1.1
 ```
 ## Repositorios remotos
 ### Subiendo etiquetas
 Para compartir una etiqueta con un repositorio remoto ejecuta el comando git push pasándo explicitamente el nombre de la etiqueta. Por ejemplo, para compartir una etiqueta llamada v1.4.2 a un repositorio remoto llamado origin, ejecutaríamos el siguiente comando:
 ```
-$ git push origin v1.4.2
+$ git push origin v1.1.1
 ```
 Si tienes varias etiquetas por compartir puedes utilizar el siguiente comando:
 ```
@@ -60,5 +63,5 @@ git push origin --tags
 ### Eliminando etiquetas
 Para eliminar una etiqueta de un repositorio remoto utiliza el comando git push con la opción --delete. Por ejemplo, para eliminar la etiqueta v1.4.2 del remoto origin ejecutaríamos el siguiente comando:
 ```
-$ git push --delete origin v1.4.2
+$ git push --delete origin v1.1.1
 ```
