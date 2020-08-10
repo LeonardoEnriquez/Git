@@ -39,7 +39,11 @@ $ git log
 ```console
 $ git remote -v
 ```
-
+## Conectando un repositorio local a uno remoto
+> Reemplazar origin master por la rama a la que quiere enviar tus cambios
+```
+$ git remote add origin <server>
+```
 ## Cambio de repositorio remoto URL
 ```console
 $ git remote set-url origin https://hostname/USERNAME/REPOSITORY.git
@@ -55,12 +59,6 @@ $ git status
 $ git diff
 $ git diff -staged
 $ git diff -cached
-```
-
-## Conectando un repositorio local a uno remoto
-> Reemplazar origin master por la rama a la que quiere enviar tus cambios
-```
-$ git remote add origin <server>
 ```
 
 ## Configurar proxy
