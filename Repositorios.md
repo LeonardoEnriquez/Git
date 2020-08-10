@@ -53,12 +53,10 @@ $ git remote set-url origin https://hostname/USERNAME/REPOSITORY.git
 $ git clone https://github.com/libgit2/libgit2
 $ git clone https://github.com/libgit2/libgit2 mylibgit
 ```
-## Cambios preparados y no preparados
+## Diferencias entre ramas
 ```
 $ git status
-$ git diff
-$ git diff -staged
-$ git diff -cached
+$ git diff master..Develop
 ```
 
 ## Configurar proxy
