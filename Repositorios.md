@@ -49,10 +49,16 @@ $ git remote add origin <server>
 $ git remote set-url origin https://hostname/USERNAME/REPOSITORY.git
 ```
 ## Clonando un repositorio
+git clone -b <branch> <remote_repo>
 ```
 $ git clone https://github.com/libgit2/libgit2
 $ git clone https://github.com/libgit2/libgit2 mylibgit
 ```
+### Clonando una rama especifica de un repositorio
+```
+$ git clone -b Develop git@github.com:user/myproject.git 
+```
+
 ## Diferencias entre ramas
 ```
 $ git status
