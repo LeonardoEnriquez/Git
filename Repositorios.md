@@ -58,6 +58,25 @@ $ git clone https://github.com/libgit2/libgit2 mylibgit
 ```
 $ git clone -b Develop git@github.com:user/myproject.git 
 ```
+### Eliminar un remote
+```
+$ git remote -v
+```
+# Ver los remotos actuales
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
+> destination  https://github.com/FORKER/REPOSITORY.git (fetch)
+> destination  https://github.com/FORKER/REPOSITORY.git (push)
+```
+$ git remote rm destination
+```
+# Eliminar remoto
+```  
+$ git remote -v
+```
+# Verificar que se haya ido
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
 
 ## Diferencias entre ramas
 ```
