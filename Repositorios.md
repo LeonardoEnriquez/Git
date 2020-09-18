@@ -58,12 +58,11 @@ $ git clone https://github.com/libgit2/libgit2 mylibgit
 ```
 $ git clone -b Develop git@github.com:user/myproject.git 
 ```
-### Eliminar un remote
+## Eliminando un remote
+### Ver los remotos actuales:
 ```
 $ git remote -v
 ```
-Ver los remotos actuales:
-  
 > origin  https://github.com/OWNER/REPOSITORY.git (fetch)
 > origin  https://github.com/OWNER/REPOSITORY.git (push)
 > destination  https://github.com/FORKER/REPOSITORY.git (fetch)
