@@ -64,8 +64,11 @@ $ git clone -b Develop git@github.com:user/myproject.git
 $ git remote -v
 ```
 > origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+  
 > origin  https://github.com/OWNER/REPOSITORY.git (push)
+
 > destination  https://github.com/FORKER/REPOSITORY.git (fetch)
+
 > destination  https://github.com/FORKER/REPOSITORY.git (push)
 
 ```
