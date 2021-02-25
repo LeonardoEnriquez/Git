@@ -81,13 +81,13 @@ $ git status
 $ git diff master..Develop
 ```
 
-## Configurar proxy
+## Eliminar proxy
 ```
 $ git config --global -l
 $ git config --global --unset http.proxy
 ```
 
-## Eliminar la configuracion de proxy
+## Colocar la configuracion de proxy
 ```
 $ git config --global -l
 $ git config --global http.proxy xx.xx.1.163:3128
